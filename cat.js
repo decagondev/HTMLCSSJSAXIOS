@@ -20,7 +20,7 @@ function populateCatCard(cat) {
 
 window.onload = async function(evt) {
     evt.preventDefault();
-    console.log("Getting Album Track Data...");
+    console.log("Getting Cat Data...");
     axios.get("http://workshop-dev.us-west-2.elasticbeanstalk.com/cats/"+id)
     .then(res => {
       console.log(res.data);
