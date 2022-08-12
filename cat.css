@@ -1,0 +1,16 @@
+.catCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catCard h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.catCard img {
+    width: 250px;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+}
